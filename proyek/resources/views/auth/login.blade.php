@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
       rel="stylesheet"
     />
-    <link href="./css/main.css" rel="stylesheet" />
+    <link href="" rel="stylesheet" />
     <title>Document</title>
   </head>
   <body>
