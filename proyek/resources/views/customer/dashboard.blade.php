@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <!--Navbar-->
+    {{-- Navbar --}}
     <nav class="navbar fixed-top">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -16,7 +16,10 @@
         </div>
     </nav>
 
-    <!--Carousel ndusel ndusel-->
+    {{-- Content --}}
+
+
+    {{-- Carousel ndusel ndusel --}}
     <div class="row">
         <div class="bd-example">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -49,5 +52,7 @@
             </div>
         </div>
     </div>
+
+    {{-- Footer --}}
 </body>
 </html>
