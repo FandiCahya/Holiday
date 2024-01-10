@@ -15,6 +15,7 @@
             <li>judul = {{ $data->judul_jasa }}</li>
             <li>deskrip = {{ $data->deskripsi }}</li>
             <li>harga = {{ $data->harga }}</li>
+            <li>Kategori = {{ $data->kategori }}</li>
         </ul>
     @endforeach
 </body>

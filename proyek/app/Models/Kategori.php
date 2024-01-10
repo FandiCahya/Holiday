@@ -5,14 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Paket extends Model
+class Kategori extends Model
 {
     use HasFactory;
     protected $guarded = ['id'];
-    protected $table = 'paket';
+    protected $table = 'kategori';
     protected $primaryKey = 'id';
 
-    public function kategori(){
-        return $this->hasOne(Kategori::class,'id_kategori');
+    public function paket(){
+        return $this->hasOne(Paket::class);
     }
 }
