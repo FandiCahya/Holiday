@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PaketController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/cus',function(){
+    return view("customer.dashboard");
+});
+
+// BE Table paket
+Route::get('/paket',[PaketController::class,'index']);
+
