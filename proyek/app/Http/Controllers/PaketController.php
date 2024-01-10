@@ -9,7 +9,7 @@ use App\Models\Kategori;
 class PaketController extends Controller
 {
     public function index(){
-        $data = Paket::all();
+        $data = Paket::latest()->limit('3')->get();
 
         return view('paket',[
             'paket' => $data

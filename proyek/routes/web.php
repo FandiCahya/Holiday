@@ -18,7 +18,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
+Route::get('/cus',function(){
+    return view("customer.dashboard");
+});
 
 // BE Table paket
 Route::get('/paket',[PaketController::class,'index']);
