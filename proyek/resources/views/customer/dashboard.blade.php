@@ -6,31 +6,55 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>heheha</title>
     @vite(['resources/css/app.css','resources/js/app.js'])
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 <body>
     {{-- Navbar --}}
     <nav class="navbar fixed-top">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Home</h5>
+                    <button type="button" class="btn btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" style="color: white;;" href="#banner">Tentang Kami</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" style="color: white;" href="#Package">Layanan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" style="color: white;" href="#Alamat">Alamat</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" style="color: white;" href="#Footer">Sosial Media Kami</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </nav>
 
     {{-- Rekomendasi --}}
     <div class="bg-white mb-10">
-        <div class="flex justify-center items-center">
-            <h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Rekomendasi</h1>
-        </div>
         <div class="pt-6">
-
+            <div class="flex justify-center items-center">
+                <h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Rekomendasi</h1>
+            </div>
           <div class="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-x-8 lg:px-8">
             <div class="hidden lg:grid lg:grid-cols-1 lg:gap-y-8">
               <div class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg">
-                <img src="https://tailwindui.com/img/ecommerce-images/product-page-02-tertiary-product-shot-01.jpg" alt="Model wearing plain black basic tee." class="h-full w-full object-cover object-center">
+                <img src="https://cdn.idntimes.com/content-images/post/20200811/cover-artikel-e3f50a783031ab9a485279b0f6036729_600x400.png" alt="Model wearing plain black basic tee." class="h-full w-full object-cover object-center">
               </div>
             </div>
-            <div class="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
+            <div class="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8 border border-box p-4 rounded-md">
                 <h1 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl">Wedding Make Up Paket</h1>
                 <div class="mt-6">
                     <h3 class="sr-only">Reviews</h3>
@@ -105,5 +129,6 @@
     </div>
 
     {{-- Footer --}}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 </body>
 </html>
