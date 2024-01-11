@@ -18,7 +18,10 @@
     </nav>
 
     {{-- Rekomendasi --}}
-    <div class="bg-white">
+    <div class="bg-white mb-10">
+        <div class="flex justify-center items-center">
+            <h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Rekomendasi</h1>
+        </div>
         <div class="pt-6">
 
           <div class="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-x-8 lg:px-8">
@@ -28,7 +31,7 @@
               </div>
             </div>
             <div class="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
-                <h1 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Wedding Make Up Paket</h1>
+                <h1 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl">Wedding Make Up Paket</h1>
                 <div class="mt-6">
                     <h3 class="sr-only">Reviews</h3>
                     <div class="flex items-center">
@@ -67,6 +70,9 @@
 
     {{-- Carousel ndusel ndusel --}}
     <div class="row">
+        <div class="flex justify-center items-center">
+            <h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Pilih Paket Wedding Impianmu</h1>
+        </div>
         <div class="bd-example">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 
