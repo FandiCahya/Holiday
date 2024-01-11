@@ -20,7 +20,7 @@
     {{-- Rekomendasi --}}
     <div class="bg-white">
         <div class="pt-6">
-          <!-- Image gallery -->
+
           <div class="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-x-8 lg:px-8">
             <div class="hidden lg:grid lg:grid-cols-1 lg:gap-y-8">
               <div class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg">
@@ -60,6 +60,7 @@
                 </div>
             </div>
           </div>
+
         </div>
     </div>
 
