@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/cus',function(){
+Route::get('/customer',function(){
     return view("customer.dashboard");
 });
 
